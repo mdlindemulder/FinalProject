@@ -1,7 +1,7 @@
 # **Intro to Programming - Final Assignment**
-## **By Michael Lindemulder & Anna Draft**
+#### **By Michael Lindemulder & Anna Draft**
 
-# Step 1 - The Data!
+### **Step 1 - The Data!**
 For our final, we investigated the following two data sets on Chicago Public Schools for 2017-2018:
 
   1) SQRP Ratings and Accountability Status 2017-2018 ("acct.xls")
@@ -18,7 +18,7 @@ All findings and analysis of the joined data can be found on our website "XXXXXX
 For steps 2 --- XXXX, please refer to "Final Code.py" for code.
 
 
-#Step 2 - Clean, Join & Save New Files:
+### **Step 2 - Clean, Join & Save New Files:**
 
   1) Clean Data
   In "acct.xls", some Elementary, High School and Option schools were missing SQRP data. For each of the Sheets listed below, we dropped schools missing SQRP data.
@@ -37,7 +37,7 @@ Once data was cleaned, we joined and saved the data as the following three new f
     c) "joinedoption.xls"
 
 
-#Step 3 - The Fun Part!!
+### **Step 3 - The Fun Part!!**
 
   1) Run Regressions...
 
