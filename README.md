@@ -18,7 +18,7 @@ All findings and analysis of the joined data can be found on our website "XXXXXX
 
 ##Step 2 - Clean, Join & Save New Files:
 
-1) Clean Data
+1) Clean Data 
 
   a) In "acct.xls", some Elementary, High School and Option schools were missing SQRP data. For each of the Sheets listed below, we dropped schools missing SQRP data.
 
