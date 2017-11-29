@@ -22,19 +22,19 @@ For steps 2 --- XXXX, please refer to **"Final Code.py"** for code.
 
 ### **Step 2 - Clean, Join & Save New Files:**
 
-**1) Clean Data**
-In "acct.xls", some Elementary, High School and Option schools were missing SQRP data. For each of the Sheets listed below, we dropped schools missing SQRP data.
+#### **1) Clean Data**
+* In "acct.xls", some Elementary, High School and Option schools were missing SQRP data. For each of the Sheets listed below, we dropped schools missing SQRP data.
 
-* Drop schools missing SQRP data:
+Drop schools missing SQRP data:
 i) Elementary Schools ("Elem Schools (grds PreK-8 only)")
 ii) High Schools ("High Schools (grds 9-12 only)")
 iii) Option Schools ("Option Schools")
 
-In "demo.xls", Sheet Name "Schools", some Elementary, High School & Option Schools were missing data under the column "Bilingual - Bilingual %". This is because these schools do not offer Bilingual programs.
+* In "demo.xls", Sheet Name "Schools", some Elementary, High School & Option Schools were missing data under the column "Bilingual - Bilingual %". This is because these schools do not offer Bilingual programs.
 
-* For each school without a bilingual program, we filled in with 0.
+Filled in with 0 each school without a bilingual program.
 
-**2) Join and save cleaned data as new files:**
+#### **2) Join and save cleaned data as new files:**
 Once data was cleaned, we joined and saved the data as the following three new files:
 ** a) "joinedelem.xls"
 ** b) "joinedhigh.xls"
