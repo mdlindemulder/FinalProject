@@ -9,7 +9,7 @@ We investigated the following two data sets on Chicago Public Schools for 2017-2
 
   https://cps.edu/SchoolData/Pages/SchoolData.aspx
 
-Our objective in joining these two data sets is to look at correlations between School Quality Rating Policy (SQRP) Scores (found in "acct.xls") and school demographics (found in "demo.xls") within Chicago Public Elementary, High School and Option schools.
+Our objective in joining these two data sets is to look at correlations between School Quality Rating Policy (SQRP) Scores (found in "acct.xls") and school demographics (found in "demo.xls") within Chicago Public Elementary, High School and Option schools. Both the these files, as well as cleaned files can be found in our repository.
 
 The steps for cleaning and joining the data are listed below in **Step 2**.
 
@@ -17,7 +17,7 @@ The steps for cleaning and joining the data are listed below in **Step 2**.
 
 A more detailed overview of our objective, as well as all findings and analysis can be found on our website: **"XXXXXX"**
 
-For steps 2 & 3, please refer to **"Final Code.py"** for code.
+For code used in steps 2 & 3, please refer to **"Final Code.py"**.
 
 
 ### **Step 2 - Clean, Join & Save New Files:**
