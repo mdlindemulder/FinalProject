@@ -1,5 +1,5 @@
-#**Intro to Programming - Final Assignment**
-## **By Michael Lindemulder & Anna Draft**
+## **Intro to Programming - Final Assignment**
+# **By Michael Lindemulder & Anna Draft**
 
 #Step 1 - The Data!
 For our final, we investigated the following two data sets on Chicago Public Schools for 2017-2018:
