@@ -1,5 +1,5 @@
-**Intro to Programming - Final Assignment
-By Michael Lindemulder & Anna Draft**
+#**Intro to Programming - Final Assignment**
+## **By Michael Lindemulder & Anna Draft**
 
 #Step 1 - The Data!
 For our final, we investigated the following two data sets on Chicago Public Schools for 2017-2018:
@@ -11,15 +11,14 @@ For our final, we investigated the following two data sets on Chicago Public Sch
 
 Our objective in joining these two data sets is to look at correlations between School Quality Rating Policy (SQRP) Scores (found in "acct.xls") and school demographics (found in "demo.xls") within Chicago Public Elementary, High School and Option schools.
 
-The steps for cleaning and joining the data are listed below in Step 2.
-Steps 3 -- XXXX list steps taken to run regressions, plot and graph the newly joined data on Elementary Schools, High Schools and Option Schools.
+The steps for cleaning and joining the data are listed below in Step 2. Steps 3 -- XXXX list steps taken to run regressions, plot and graph the newly joined data on Elementary Schools, High Schools and Option Schools.
 
 All findings and analysis of the joined data can be found on our website "XXXXXX"
 
 For steps 2 --- XXXX, please refer to "Final Code.py" for code.
 
 
-Step 2 - Clean, Join & Save New Files:
+#Step 2 - Clean, Join & Save New Files:
 
   1) Clean Data
   In "acct.xls", some Elementary, High School and Option schools were missing SQRP data. For each of the Sheets listed below, we dropped schools missing SQRP data.
@@ -38,7 +37,7 @@ Once data was cleaned, we joined and saved the data as the following three new f
     c) "joinedoption.xls"
 
 
-Step 3 - The Fun Part!!
+#Step 3 - The Fun Part!!
 
   1) Run Regressions...
 
