@@ -13,11 +13,11 @@ Our objective in joining these two data sets is to look at correlations between 
 
 The steps for cleaning and joining the data are listed below in **Step 2**.
 
-**Steps 3 -- XXXX** list steps taken to run regressions, plot and graph the newly joined data on Elementary Schools, High Schools and Option Schools.
+**Step 3** list steps taken to run regressions, plot and graph the newly joined data on Elementary Schools, High Schools and Option Schools.
 
 All findings and analysis of the joined data can be found on our website **"XXXXXX"**
 
-For steps 2 --- XXXX, please refer to **"Final Code.py"** for code.
+For steps 2 & 3, please refer to **"Final Code.py"** for code.
 
 
 ### **Step 2 - Clean, Join & Save New Files:**
