@@ -45,8 +45,8 @@ For code used in steps 2 & 3, please refer to **"Final Code.py"**.
 
 ### **Step 3 - The Fun Part!!**
 
-#### **1) Run Regressions...**
+#### **1) Regression Analysis**
 
-For Elementary Schools, High Schools & Option Schools from newly saved files. We ran regressions to test how three demographics - "Bilingual, SpED, Free/Reduced Lunch" - may or may not be correlated with our dependent variable "SQRP Total Points Earned".
+For Elementary Schools, High Schools & Option Schools from newly saved files. We ran regressions to test how three demographics - **"Bilingual, SpED, Free/Reduced Lunch"** - may or may not be correlated with our dependent variable "SQRP Total Points Earned".
 
 #### **2)   **
