@@ -41,7 +41,7 @@ For code used in steps 2 & 3, please refer to **"Final Code.py"**.
 
 ### **Step 3 - The Fun Part!!**
 
-#### **1) Regression Analysis**
+#### **1) Regression Analysis** 
 
 From the newly saved files for Elementary Schools and High Schools, we ran regressions to test how schools with the following programs - **"Bilingual", "Special Education (SpED)", "Free/Reduced Lunch"** - may or may not be correlated with our dependent variable **"SQRP Total Points Earned".**
 
