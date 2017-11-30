@@ -40,15 +40,17 @@ For code used in steps 2 & 3, please refer to **"Final Code.py"**.
 
 
 ### **Step 3 - The Fun Part!!**
-*All results and analysis from Step 3 can be found on our website http://home.uchicago.edu/~mdlindemulder/schooling.html*
+*All results and analysis from Step 3 can be found on *
 
 
 #### **1) Regression Analysis**
 
-From our newly saved files for Elementary Schools and High Schools, we ran regressions to test how schools with the following programs - **"Bilingual", "Special Education (SpED)", "Free/Reduced Lunch"** - may or may not be correlated with our dependent variable **"SQRP Total Points Earned".**
+From the newly saved files for Elementary Schools and High Schools, we ran regressions to test how schools with the following programs - **"Bilingual", "Special Education (SpED)", "Free/Reduced Lunch"** - may or may not be correlated with our dependent variable **"SQRP Total Points Earned".**
 
-#### **2) Plots & Graphs**
+#### **2) Plot & Graph Results**
+    * See "Final Code.py" for code.
 
-Please refer to **"Final Code.py"** for plot & graph code.
+    * See Website for images and analysis:  http://home.uchicago.edu/~mdlindemulder/schooling.html
 
-Please refer to our website (http://home.uchicago.edu/~mdlindemulder/schooling.html) for plot & graph images and analysis.  
+#### **3) Build Website**
+    * See "cps.css" and "cps.html" for website code.  
