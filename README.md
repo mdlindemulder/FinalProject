@@ -53,4 +53,4 @@ From the newly saved files for Elementary Schools and High Schools, we ran regre
 * See Website for images and analysis:  http://home.uchicago.edu/~mdlindemulder/schooling.html
 
 #### **3) Build Website**
-    * See "cps.css" and "cps.html" for website code.  
+* See "cps.css" and "cps.html" for website code.  
