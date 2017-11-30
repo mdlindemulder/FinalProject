@@ -15,7 +15,7 @@ The steps for cleaning and joining the data are listed below in **Step 2**.
 
 **Step 3** lists actions taken to compare and analyze the data (i.e., regressions, plots and graphs) from the newly joined data on Elementary Schools and High Schools.
 
-A more detailed overview of our objective, as well as all findings and analysis can be found on our website: **http://home.uchicago.edu/~mdlindemulder/schooling.html**
+A more detailed overview of our objective, as well as all findings and analysis can be found on our website: http://home.uchicago.edu/~mdlindemulder/schooling.html
 
 For code used in steps 2 & 3, please refer to **"Final Code.py"**.
 
@@ -41,6 +41,8 @@ For code used in steps 2 & 3, please refer to **"Final Code.py"**.
 
 ### **Step 3 - The Fun Part!!**
 *All results and analysis from Step 3 can be found on our website http://home.uchicago.edu/~mdlindemulder/schooling.html*
+
+
 #### **1) Regression Analysis**
 
 From our newly saved files for Elementary Schools and High Schools, we ran regressions to test how schools with the following programs - **"Bilingual", "Special Education (SpED)", "Free/Reduced Lunch"** - may or may not be correlated with our dependent variable **"SQRP Total Points Earned".**
@@ -49,4 +51,4 @@ From our newly saved files for Elementary Schools and High Schools, we ran regre
 
 Please refer to **"Final Code.py"** for plot & graph code.
 
-Please refer to our website (**http://home.uchicago.edu/~mdlindemulder/schooling.html**) for plot & graph images and analysis.  
+Please refer to our website (http://home.uchicago.edu/~mdlindemulder/schooling.html) for plot & graph images and analysis.  
