@@ -48,7 +48,7 @@ From the newly saved files for Elementary Schools and High Schools, we ran regre
 #### **2) Plot & Graph Results**
 * See **"Final Code.py"** for code.
 
-* See Website for images and analysis:  http://home.uchicago.edu/~mdlindemulder/schooling.html
+* See website for images and analysis:  http://home.uchicago.edu/~mdlindemulder/schooling.html
 
 #### **3) Build Website**
 * See **"cps.css"** and **"cps.html"** for website code.  
