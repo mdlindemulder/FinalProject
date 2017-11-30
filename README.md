@@ -9,13 +9,13 @@ We investigated the following two data sets on Chicago Public Schools for 2017-2
 
   https://cps.edu/SchoolData/Pages/SchoolData.aspx
 
-Our objective in joining these two data sets is to look at correlations between School Quality Rating Policy (SQRP) Scores (found in "acct.xls") and school demographics (found in "demo.xls") within Chicago Public Elementary Schools and High School Schools. Both the these files, as well as cleaned files can be found in our repository.
+Our objective in joining these two data sets is to look at correlations between School Quality Rating Policy (SQRP) Scores (found in "acct.xls") and school demographics (found in "demo.xls") within Chicago Public Elementary Schools and High School Schools. Both original files, as well as cleaned files can be found in our repository.
 
 The steps for cleaning and joining the data are listed below in **Step 2**.
 
-**Step 3** lists actions taken to compare and analyze the data (i.e., regressions, plots and graphs) from the newly joined data on Elementary Schools and High Schools.
+**Step 3** lists actions taken to compare, analyze and report our findings.
 
-A more detailed overview of our objective, as well as all findings and analysis can be found on our website: http://home.uchicago.edu/~mdlindemulder/schooling.html
+A more detailed overview of our objective, as well as all analysis and findings can be found on our website: http://home.uchicago.edu/~mdlindemulder/schooling.html
 
 For code used in steps 2 & 3, please refer to **"Final Code.py"**.
 
@@ -40,17 +40,15 @@ For code used in steps 2 & 3, please refer to **"Final Code.py"**.
 
 
 ### **Step 3 - The Fun Part!!**
-*All results and analysis from Step 3 can be found on *
-
 
 #### **1) Regression Analysis**
 
 From the newly saved files for Elementary Schools and High Schools, we ran regressions to test how schools with the following programs - **"Bilingual", "Special Education (SpED)", "Free/Reduced Lunch"** - may or may not be correlated with our dependent variable **"SQRP Total Points Earned".**
 
 #### **2) Plot & Graph Results**
-* See "Final Code.py" for code.
+* See **"Final Code.py"** for code.
 
 * See Website for images and analysis:  http://home.uchicago.edu/~mdlindemulder/schooling.html
 
 #### **3) Build Website**
-* See "cps.css" and "cps.html" for website code.  
+* See **"cps.css"** and **"cps.html"** for website code.  
