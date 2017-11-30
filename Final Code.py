@@ -43,8 +43,7 @@ joinedhigh.to_excel("joinedhigh.xls")
 
 ##Elementary School - Regression on SQRP##
 df = pd.read_excel("joinedelem.xls")
-X = df[["SpED %", "Bilingual %", "FRL %"]] #"Percent of Students Meeting/Exceeding National Average Growth Norms"]]
-y = df["SQRP Total Points Earned"]
+X = df[["SpED %", "Bilingual %", "FRL %"]] 
 X = sm.add_constant(X)
 est = sm.OLS(y, X).fit()
 est.summary()
