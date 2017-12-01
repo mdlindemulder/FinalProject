@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Accountablity in Chicago Public Schools </title>
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:300" rel="stylesheet">
+<link href="cps.css" rel="stylesheet">
+
+</head>
+<body>
+
+<ul class="nav">
+  <li><a href="#overview">Overview</a></li>
+  <li><a href="#elem">Elementary Schools</a></li>
+  <li><a href="#high">High Schools</a></li>
+  <li><a href="#conclusion">Conclusion</a></li>
+
+</ul>
+<br>
+<br>
+  <h1>Accountablity in Chicago Public Schools</h1>
+
+  <p>
+    <img src="https://static.pexels.com/photos/289740/pexels-photo-289740.jpeg" alt="desk" width="100%"></img>
+  </p>
+  <p>
+  <div id="overview">
+    <h1>Overview</h1>
+  </div>
+  <section id="#overview">
+  </p>
+  <p>
+  <h2><b>The Question</b></h2>
+  <h2>In modern education, standardized tests predominate discussions of educational quality
+  and accountability. Students, teachers, and schools are measured by these seemingly
+  impartial markers of student achievement. But is it reasonable to use the same metric
+  to evaluate all schools, even if the composition of their student populations is
+  not uniform? Are there correlations between identifiable subgroups of students that
+  point to trends in notions of successful schools? In this analysis we examine the
+  relationship between accountability status (via School Quality Rating Policy (SQRP) scores)
+  and subgroup markers including percentage of students classified for speical education
+  services through, the creation of an Individualized Education Plan (IEP) or a 504,
+  percentage of students who qualify for Free and Reduced Lunch (FRL), and percentage of
+  students who are identified and bilingual who may be provided support with English for Speakers of Other Languages (ESOL).
+  We examined these factors in elementary and high schools.</h2>
+  <h2><b>Background on SQRP Scores</b></h2>
+  <h2>SQRP scores are the metric Chicago Public Schools (CPS) utilizes to compare the quality
+    of schools within the district. The stated intent of these scores is to communicate to
+    the community the academic success of particular schools, identify and recognize high
+    achieving and high growth schools to determine best practices, provide a framework for
+    goal setting, identify schools for support, and guide Board decisions. CPS
+    <a href="http://cps.edu/Performance/Pages/PerformancePolicy.aspx" target="_blank">SQRP scores</a>
+    are obtained from data collected the previous year. Thus, the scores accessed for
+    this analysis were collected during the 2016-2017 school year. The determination of SQRP scores involves many factors which are given different
+    weights. For example, the calculation for elementary schools takes into account
+    student growth on the NWEA (Northwest Evaluation Association) assessment, student
+    attendance, growth of priority groups, percentage of students making national
+    average growth, among others. Full details on elementary and high school SQRP weighting components
+    are provided below.</h2>
+</p>
+<div>
+<p>
+<img class="center" src="http://home.uchicago.edu/~mdlindemulder/SQRP" alt="sqrp" width="50%"></img>
+</p>
+</div>
+<h2><b>Background on Demographic Factors</b></h2>
+      <h2>Our focus in this analysis is how these SQRP scores assigned to each school
+        are related to student demographic markers. Specifically, we examined percent
+        of students classified as special education, percent of students identified as
+        bilingual, and percent of students eligible for free and reduced lunch.Do any of these markers show a
+        correlation with the SQRP scores schools receive from the district? If so, what
+        is the nature of that correlation and what can that tell us about other how other
+        factors impact the level of the SQRP score? Because these scores have the
+        potential to have a dramatic impact on enrollment in specific schools and
+        public perception of the quality of neighborhood schools, the stakes are very high
+        for faculty and staff.</h2>
+      <h2>Students can qualify for additional services under special education policies through
+        creation of an Individualized Education Plan (IEP) or utilization of a 504 which refers
+        to Section 504 of the Rehabilitation Act of 1973. Section 504 requires schools "provide
+        free and appropriate public education for students." These classifications comprise a
+        wide array of needs and designations including, but not limited to, "physically
+        impaired" (PI), "cognitively impaired" (CI), "emotionally impaired" (EI), or specific
+        learning disability (SLD).  Within CPS, between 13-14 percent of students have an IEP
+        and 3-4 percent of students have a 504 on file. CPS recognizes the achievement gap
+        between students with IEP and those without and has <a href="http://cps.edu/SiteCollectionDocuments/odlss_whitepaper.pdf" target="_blank">instituted programs</a>
+        to attempt to diminish that gap.</h2>
+      <h2>Bilingual classifications <a href="http://policy.cps.edu/download.aspx?ID=12" target="_blank">are also varied</a>.
+        Some programs consist of a self-contained component of direct English language
+        instruction. Other programs are more immersive with significant proportions of the
+        school day devoted to instruction in the language spoken in the students' home.
+        Once students are identified for English language support through self-reporting
+        or testing, they remain in the program until it is determined they no longer require
+        support, or their parents or guardians remove them from the program.</h2>
+      <h2>Free and reduced lunch designation is commonly used to identify low-income students.
+        While schools mostly use this demographic indicator to determine which students receive
+        nutritional support, researchers will use these statistics to make assumptions about
+        resources available to those students in their homes compared to those who do not
+        qualify. The Federal government sets the parameters for FRL. For the <a href="https://www.federalregister.gov/documents/2017/04/10/2017-07043/child-nutrition-programs-income-eligibility-guidelines" target="_blank">2017-2018</a> school
+        year, the "guidelines for free meals and milk and reduced price meals were obtained by
+        multiplying the year 2017 Federal income poverty guidelines by 1.30 and 1.85, respectively,
+        and by rounding the result upward to the next whole dollar." As of <a href="https://www.wbez.org/shows/wbez-news/free-lunch-for-all-in-chicago-public-schools-starts-in-september/4b6696cc-1522-4c3a-ad34-92f664d84c32" target="_blank">fall 2014</a>, CPS has
+        provided all students, regardless of their qualification for FRL, with one free breakfast
+        and one free lunch per day. </h2>
+    <h2><b>Analytical Technique</b></h2>
+      <h2>To examine the influence of these variables, we employed OLS regressions to determine the
+        nature of the relationship between these demographic variables (independent variables) and
+        the SQPR scores (dependent variable). An analysis of these findings is provided below, by
+        school type, along with images of the regression outputs. To determine the significance of
+        variable interactions we utilized t-scores and p-values at the 95 percent confidence interval.</h2>
+      <h2>The data sets utilized in this project are available from CPS and can be found <a href="https://cps.edu/SchoolData/Pages/SchoolData.aspx" target="_blank">here</a>.
+      </p>
+</section>
+<div id="elem">
+    <h1>Elementary Schools</h1>
+  </div>
+<section id="#elem">
+    <p>
+    <img class="right" src="https://static.pexels.com/photos/207756/pexels-photo-207756.jpeg" alt="element" width="40%"></img>
+    </p>
+    <p>
+    <h2>Schools designated as Elementary Schools are those with students in pre-K through
+      8th grade. There are 473 schools that make up this subgroup within Chicago Public
+      Schools. Parents in CPS have <a href="http://cps.edu/Schools/Elementary_schools/Pages/Elementaryschooltypes.aspx" target="_blank">many options</a>
+      regarding where they send their students including Neighborhood, Charter, Classical,
+      Contract, Magnet, Gifted, and Small. Because of all of theses parental choices, the
+      rating systems for schools is a key factor in the decision-making process for parents.
+      A low score could lead to reduced enrollment and repercussions for the faculty and
+      staff. That is why it is essential for these scores to be accurate depictions of the
+      quality of the school and not merely a reshuffling of test scores. The demographics
+      of these schools need to be taken into account where these demographics could impact
+      the SQRP score. </h2>
+    <h2>When comparing the SQRP scores to the demographic data indicators special education
+      percentage, bilingual percentage, and free and reduced lunch percentage. With regard
+      to special education, there appears to be statistically significant a negative
+      correlation with SQRP scores. This implies that as the proportion of students with
+      special education designations--primarily those with IEPs and 504s--increases, the SQRP
+      scores decrease. This impact could imply that schools with greater percentages of
+      special education designated students are being impacted disproportionately by this
+      scoring system. A similar trend was clear with free and reduced lunch. As the percentage
+      of those students increased, the SQRP score decreased. The bilingual designation appears
+      to have the opposite impact signaling a direct relationship with SQRP scores.</h2>
+    <h2> <a href="http://home.uchicago.edu/~mdlindemulder/elemreg.jpg" atarget="_blank">Click here</a>
+      to see the OLS regression results.</h2>
+    </p>
+
+    <p>
+<img class="center" src="http://home.uchicago.edu/~mdlindemulder/elemgraphs.jpg" alt="elemgraphs" width="100%"></img>
+    </p>
+</section>
+<div id="high">
+  <h1>High Schools</h1>
+</div>
+<section id="#high">
+  <p>
+  <img class="right" src="https://static.pexels.com/photos/159844/cellular-education-classroom-159844.jpeg" alt="board" width="40%"></img>
+  </p>
+  <p>
+
+  <h2>High Schools serve students in 9th through 12th grades. Within the Chicago Public
+    School System, there are 116 high schools. Similar to elementary school parents,
+    parents of high schoolers have <a href="http://cps.edu/Schools/High_schools/Pages/Highschooltypes.aspx" target="_blank">many options</a>
+    for their child's education. Often high school parents perceive the stakes as higher
+    for their students to be in the best school at this level. They are looking for
+    schools to best prepare their students for the next phase of their lives. This makes
+    the competition intense for schools thought to be best. Thus school publicized rating
+    systems, like the SQRP, can have a massive impact on the schools evaluated. </h2>
+  <h2>An examination of the regression of demographic data and SQRP score assignment for
+    high schools shows a similar pattern to that of elementary schools. Both special
+    education and free and reduced lunch show statistically significant relationships.
+    In both instances as the demographic indicator (special education and free and reduced
+    lunch) increases, the SQRP score decreases. High school bilingual students also show
+    a similar trend to that of elementary schools, as the percentage of bilingual students
+    increases so does the SQRP score. </h2>
+  <h2> <a href="http://home.uchicago.edu/~mdlindemulder/highreg.jpg" atarget="_blank">Click here</a>
+      to see the OLS regression results.</h2>
+  </p>
+  <p>
+<img class="center" src="http://home.uchicago.edu/~mdlindemulder/hsgraphs.jpg" alt="hsgraphs" width="100%"></img>
+  </p>
+</section>
+<div id="conclusion">
+    <h1>Conclusion</h1>
+  </div>
+  <section id="#conclusion">
+    <p>
+    <img class="right" src="https://static.pexels.com/photos/249360/pexels-photo-249360.jpeg" alt="book" width="40%"></img>
+    </p>
+    <p>
+  <h2>By examining the data provided by CPS, we found that schools with higher percentages
+    of students designated as special education or higher percentages of students who
+    qualify for free or reduced lunch have a significantly lower SQRP scores. Schools with
+    higher percentages of students identified as bilingual have the opposite relationship
+    showing a correlation with higher SQRP scores. While these results are compelling, it
+    is important to recognize that much like the SQRP scores, these relationships do not
+    tell the entire story. An issue as complicated as school quality can not be distilled
+    down to only a few components. And while these components all surely play a role, the
+    interaction between them is not easily definable and likely differs from school to school.</h2>
+  <h2>The differing effects of the demographic data may be related to school attendance rates
+    among these groups. As the percentages of students designated special education or
+    qualifying for FRL increases, the attendance percentage at these schools decreases.
+    The opposite is true for schools with higher percentages of bilingual students. As the
+    percentage of students designated bilingual increases, attendance does as well. Because
+    attendance is a significant component of the SQRP calculation, this relationship is
+    directly proportional. For elementary schools, it comprises 20 percent of the score,
+    and for high schools, it comprises 10 percent of the score. While it is important to
+    recognize that these correlations do not imply any causation, there is a logical
+    component to the notion that higher attendance rates leads to increased test scores and
+    by extension better ratings in the SQRP.</h2>
+  <h2>While variables such as attendance and test scores are the primary factors utilized
+    to compare the quality of schools within CPS, this study suggests that SQRP scores may
+    not be a completely reliable metric for measuring school quality. Without considering the
+    effect of demographics on scores, important intervening factors are disregarded which
+    could paint an incorrect picture of a school to the community. Presently, SQRP scores
+    take into account markers of student achievement that do not entirely reflect school
+    environment. In order to ensure a more equitable rating system, the components should
+    include factors that attempt to suitably address the demographic characteristics of the
+    school.</h2>
+    </p>
+    <p>
+
+    </p>
+
+    </section>
